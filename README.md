@@ -1,6 +1,6 @@
-# CollabConnect  
+# Business Collaboration Platform  
 
-CollabConnect is a platform that helps companies quickly find point of contact across teams using `product` or `repository names`. It streamlines collaboration by providing detailed contact information, reducing delays, and fostering efficient teamwork in a growing, distributed organization.
+This is a platform that helps companies quickly find point of contact across teams using `product` or `repository names`. It streamlines collaboration by providing detailed contact information, reducing delays, and fostering efficient teamwork in a growing, distributed organization.
 
 ## Table of Contents  
 - [Demo & Documentation](#demo-and-documentation) 

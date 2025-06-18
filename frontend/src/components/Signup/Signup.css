@@ -1,0 +1,138 @@
+/* Reset default margins and global styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Override app.css styles and maintain login/signup styling */
+  .auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #333 !important;
+    font-family: Arial, sans-serif !important;
+  }
+  
+  .auth-wrapper {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+    background: white !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    color: #333 !important;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333 !important;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #222 !important;
+  }
+  
+  .auth-header p {
+    color: #666 !important;
+    font-size: 0.875rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    background-color: white !important;
+    color: #333 !important;
+  }
+  
+  .form-group input::placeholder {
+    color: #666 !important;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #000;
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .form-footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #333 !important;
+  }
+  
+  .auth-link {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #333 !important;
+  }
+  
+  .auth-link a {
+    color: #000 !important;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .auth-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .auth-wrapper {
+      width: 85%;
+      padding: 1.5rem;
+      margin: 0.5rem auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .auth-wrapper {
+      width: 95%;
+      padding: 1rem;
+    }
+    
+    .auth-header h2 {
+      font-size: 1.25rem;
+    }
+    
+    .form-group input {
+      padding: 0.625rem;
+    }
+  }

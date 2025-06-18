@@ -17,7 +17,7 @@ This is a platform that helps companies quickly find point of contact across tea
 
 
 ## Frontend  
-The frontend of CollabConnect is built using React.  
+The frontend of this platform is built using React.  
 
 ### Repository  
 [Frontend Repository](https://github.com/kparekh21/poc-contact-app)  
@@ -54,7 +54,7 @@ The frontend of CollabConnect is built using React.
 5. Access the application at `http://localhost:3000`.  
 
 ## Backend  
-The backend of CollabConnect is built using Node.js.  
+The backend of this platform is built using Node.js.  
 
 ### Repository  
 [Backend Repository](https://github.com/nisarg0606/CollabConnect)  
